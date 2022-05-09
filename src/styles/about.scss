@@ -14,7 +14,8 @@
     align-items: center;
   }
   .content {
-    width: 50%;
+    width: 100%;
+    text-align: center;
     @include media(">=phone", "<lgphone") {
       width: 100%;
     }
