@@ -75,7 +75,7 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "I'm a software engineer who is passionate about all things web development. My experience includes using  JavaScript to create various features for websites and web applications. I am very proficient in Laravel and CodeIgniter for back-end and API development. ",
+    "I'm a software engineer who is passionate about all things web development. My experience includes building Web Applications and Web APIs using programming languages such as JavaScript, Laravel and CodeIgniter.",
   aboutParaTwo:
     "",
   aboutParaThree:
