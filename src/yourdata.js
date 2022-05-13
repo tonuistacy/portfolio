@@ -3,8 +3,8 @@ import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
 import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+import laravelIcon from "./images/laravel.svg"
+import codeigniterIcon from "./images/codeigniter.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -38,24 +38,24 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Tawala", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "An E-Commerce site built with Laravel and Vue JS. ", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://raw.githubusercontent.com/stacytonui/stacy/main/tawala.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://stacychebet.com",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Auctioneer", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A simple items auctioning site built using Laravel ", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://raw.githubusercontent.com/stacytonui/stacy/main/auctioneer.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://stacychebet.com",
     },
 
 
@@ -93,32 +93,32 @@ export default {
     {
       img: htmlIcon,
       para:
-        "Lorem ",
+        "HTML",
     },
     {
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "CSS",
     },
     {
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "JS",
     },
     {
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "ReactJS",
     },
     {
-      img: designIcon,
+      img: laravelIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Laravel",
     },
     {
-      img: codeIcon,
+      img: codeigniterIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "CodeIgniter",
     },
   ],
 

@@ -26,6 +26,7 @@ const Work = () => {
               ))}
             </Fade>
           </div>
+
         </div>
       </div>
     </div>

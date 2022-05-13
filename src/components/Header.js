@@ -37,19 +37,36 @@ const Header = () => {
             </div>
           </Fade>
           <Fade bottom>
-            <p>{data.headerParagraph}</p>
+             <p> {data.aboutParaOne}
+            </p>
           </Fade>
-          <Fade bottom>
-            <a
-              href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
-              }`}
-              className="primary-btn"
-            >
-              CONNECT WITH ME
-            </a>
-          </Fade>
+         
+      
+
+         
         </div>
+        <div className="skills-grid">
+       
+       <div className="skill" >
+       <a
+       href={`mailto:${
+         data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
+       }`}
+       className="primary-btn"
+     >
+       CONNECT WITH ME
+     </a>
+     <a
+       href={`mailto:${
+         data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
+       }`}
+       className="primary-btn"
+     >
+       CURRICULUM VITAE
+     </a>
+       </div>
+  
+   </div>
       </div>
     </div>
   )

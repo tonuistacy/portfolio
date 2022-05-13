@@ -15,6 +15,7 @@ const Skills = () => {
               </div>
             ))}
           </div>
+      
         </div>
       </div>
     </div>

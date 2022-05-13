@@ -15,7 +15,7 @@ const IndexPage = () => (
     <SEO title="stacytonui" />
     <Header></Header>
     <Work></Work>
-    <About></About>
+    {/* <About></About> */}
     <Skills></Skills>
    
     <Footer></Footer>
